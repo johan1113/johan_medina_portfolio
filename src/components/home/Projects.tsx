@@ -3,33 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
-
-const projects = [
-  {
-    title: 'Project One',
-    description: 'A brief description of the first project.',
-    imageUrl: 'https://placehold.co/500x300',
-    projectUrl: '/projects/one',
-  },
-  {
-    title: 'Project Two',
-    description: 'A brief description of the second project.',
-    imageUrl: 'https://placehold.co/500x300',
-    projectUrl: '/projects/two',
-  },
-  {
-    title: 'Project Three',
-    description: 'A brief description of the third project.',
-    imageUrl: 'https://placehold.co/500x300',
-    projectUrl: '/projects/three',
-  },
-  {
-    title: 'Project Four',
-    description: 'A brief description of the fourth project.',
-    imageUrl: 'https://placehold.co/500x300',
-    projectUrl: '/projects/four',
-  },
-];
+import { projects } from '@/lib/projects-data';
 
 const Projects = () => {
   return (

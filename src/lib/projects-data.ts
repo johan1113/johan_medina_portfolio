@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    slug: 'one',
+    title: 'Project One',
+    description: 'A brief description of the first project.',
+    longDescription: 'This is a detailed description of Project one. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    imageUrl: 'https://placehold.co/500x300',
+    projectUrl: '/projects/one',
+    images: [
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+    ],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+  },
+  {
+    slug: 'two',
+    title: 'Project Two',
+    description: 'A brief description of the second project.',
+    longDescription: 'This is a detailed description of Project two. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    imageUrl: 'https://placehold.co/500x300',
+    projectUrl: '/projects/two',
+    images: [
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+    ],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+  },
+  {
+    slug: 'three',
+    title: 'Project Three',
+    description: 'A brief description of the third project.',
+    longDescription: 'This is a detailed description of Project three. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    imageUrl: 'https://placehold.co/500x300',
+    projectUrl: '/projects/three',
+    images: [
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+    ],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+  },
+  {
+    slug: 'four',
+    title: 'Project Four',
+    description: 'A brief description of the fourth project.',
+    longDescription: 'This is a detailed description of Project four. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    imageUrl: 'https://placehold.co/500x300',
+    projectUrl: '/projects/four',
+    images: [
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+      'https://placehold.co/800x600',
+    ],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+  },
+];
