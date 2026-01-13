@@ -26,7 +26,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Get in Touch</h3>
             <p className="text-gray-400 mb-6">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+              I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
             </p>
             <div className="flex items-center mb-4">
               <Mail className="mr-4" />
